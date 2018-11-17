@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
+<body style="background-color:aliceblue;">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial;}
-
 /* Style the tab */
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
 }
-
 /* Style the buttons inside the tab */
 .tab button {
     background-color: inherit;
@@ -23,17 +22,14 @@ body {font-family: Arial;}
     transition: 0.3s;
     font-size: 17px;
 }
-
 /* Change background color of buttons on hover */
 .tab button:hover {
     background-color: #ddd;
 }
-
 /* Create an active/current tablink class */
 .tab button.active {
     background-color: #ccc;
 }
-
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -45,29 +41,54 @@ body {font-family: Arial;}
 </head>
 <body>
 
-<h2>Spider Pigs
+<h2>Spider Pigs <br /> Hello, and welcome to our website about mental health. This will give you more information about mental health. Let's get started!!!
 <p>Click on the buttons inside the tabbed menu to learn more:</p>
 
 <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Mental Health')">Mental Health</button>
+  <button class="tablinks" onclick="openCity(event, 'Mental Health & The Media')">Mental Health & The Media</button>
   <button class="tablinks" onclick="openCity(event, 'Media')">Media</button>
   <button class="tablinks" onclick="openCity(event, 'Sleep')">Sleep</button>
   <button class="tablinks" onclick="openCity(event, 'Drugs/Alcohol')">Drugs/Alcohol</button>
 </div>
 
+<div id="Mental Health" class="tabcontent">
+  <h3>Mental Health</h3>
+  <p>The wellness of a human being is compiled of the balance of mental, emotional, and physical health. But, when the balance is disrupted, it can lead to damage to the wellbeing of a person, whether it be emotionally unstable, physically disabled, or mentally unsteady. Anyone can go through any of these. Here's another thing, mental health doesn't just include depression, there's insomnia, bipolar disorder, schizophrenia, post traumatic stress disorder, dissociative identity disorder, cotard delusion, depersonalization disorder, and many more.
+
+</p> 
+</div>
+
+<div id="Mental Health & The Media" class="tabcontent">
+  <h3>Mental Health & The Media</h3>
+  <p> filler
+
+</p> 
+</div>
+
 <div id="Media" class="tabcontent">
   <h3>Media</h3>
-  <p>London is the capital city of England.</p>
+  <p> The media. It is not just social media. It is portrayed in literature, musicals, tv shows, movies, video games, etc. Mental health is starting to become more and more depicted in media. This doesn't mean that mental health is represented in an accurate way. What we have here is different 
+  pieces of media interpreting mental health in a somewhat accurate way. On social media, cyberbullying is a major issue, and the fact that some bullies are anonymous makes it seem that the whole world is against the victim. This will make the victim believe they don't belong, and can make 
+  them commit self-harm or even suicide. Also, violent games can cause some people to think that the game is real, and they start to cause damage to themselves, their family, and even their world. 
+
+ 
+
+</p>
 </div>
 
 <div id="Sleep" class="tabcontent">
   <h3>Sleep</h3>
-  <p>Paris is the capital of France.</p> 
+  <p>
+  Sleep is also very important to any person. Sleep deprivation is very serious. You grow in your sleep, so, basically sleep is like a battery your body uses to charge. Think about a phone. When a phone does not charge, it can't function. When you do not sleep, you can't function. See the similarities? Sleep is so vital to mental health. One example is, if someone has PTSD, they are most likely to have the symptom, night terrors. 
+
+</p> 
 </div>
 
 
 <div id="Drugs/Alcohol" class="tabcontent">
   <h3>Drugs/Alcohol</h3>
-  <p>Tokyo is the capital of Japan.</p>
+  <p>  Drugs and alcohol are very bad for you. They can make you hallucinate and could get you sick. Drugs have a ton of side effects that are bad for you. Alcohol makes you drunk and also too much of it really can harm you. 300 people in Illinois die drunk in car crashes every year. As we grow as a community together, drug and alcohol abuse is killing several thousands everyday.  </p>
 </div>
 
 <script>
